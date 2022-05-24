@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+
+}
+
+.left-links {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.right-links {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;	
+	margin-right: auto;
+	gap: 8px;
+}
+
+
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 8px;
+  
+  }
+  
+  .input{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;	
+	margin-right: auto;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+  
+  
+}
+ 
+
+ul> li {
+	list-style-type: none;
+	display: flex;
+	gap: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #333333
+}
+
+.footer {
+	background: #eeeeee;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 5px 0px 5px;
+	
+
+}
