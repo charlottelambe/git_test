@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TOP: JavaScript Fundamentals Part 3</title>
+</head>
+<body>
+  <script>
+  	let word = prompt("Please enter a word");
+	function capitalize() {
+	let text =	word[0].toUpperCase() + word.substring(1).toLowerCase();
+	return text;
+	}
+	console.log(capitalize());
+	alert ("The word capitalised is " + capitalize());
+  </script>
+</body>
+</html>
